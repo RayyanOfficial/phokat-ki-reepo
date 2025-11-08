@@ -1,0 +1,804 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>APLEX PUNCH </title>
+  <meta name="description" content="APLEX PUNCH — Design & Engineering Studio" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+</style>
+
+</head>
+
+<body class="theme-light">
+
+  </head>
+
+  <body>
+    <!-- Loader -->
+    <div id="loader">
+      <div class="loader-circle">
+        <div class="outer-ring"></div>
+        <div class="inner-circle">
+          <img src="assets/loading-logo.png" alt="Vision Punch Logo">
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="all.js/script9.js"></script>
+
+
+    <!-- cursor-section -->
+    <div class="custom-cursor"></div>
+    <div class="cursor-trail"></div>
+    <script src="all.js/script8.js"></script>
+
+<header class="header">
+  <div class="container nav-wrapper">
+    <a href="index.html" class="logo">
+      <img src="Aplex-Punch-logo.png" alt="Aplex Punch Logo" height="52" width="230">
+    </a>
+
+    <nav class="nav">
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-item">Home</a></li>
+        <li><a href="portfolio.html" class="nav-item">Portfolio</a></li>
+        <li><a href="services.html" class="nav-item">Services</a></li>
+        <li><a href="about.html" class="nav-item">About</a></li>
+        <li><a href="contact.html" class="btn-primary">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="menu-btn" id="menuBtn" aria-label="Toggle Menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</header>
+
+<script src="header.js"></script>
+<br><br>
+
+    <!-- <main>
+      <section class="hero container">
+        <div class="hero-grid">
+          <div class="hero-copy animate" data-anim="fade-up">
+            <p class="eyebrow">Creative software & product studio</p>
+            <h1>We build clear products that grow businesses.</h1>
+            <p class="lead">APLEX PUNCH crafts thoughtful UX, pixel-accurate interfaces and robust frontends — built to
+              scale and convert.</p>
+            <div class="hero-actions">
+              <a class="btn primary" href="services.html">Our Services</a>
+              <a class="btn ghost" href="#work">View Work</a>
+            </div>
+            <ul class="stats">
+              <li><strong>120+</strong><span>Projects</span></li>
+              <li><strong>40+</strong><span>Clients</span></li>
+              <li><strong>8 yrs</strong><span>Avg. experience</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-media animate" data-anim="slide-left" aria-hidden="true">
+            <div class="mock-device">
+              <img src="assets/hero-screenshot.png" alt="APLEX PUNCH showcase">
+              <div class="mock-glow"></div>
+            </div>
+          </div>
+        </div>
+      </section>---->
+      
+  <div class="hero-section">
+  <section class="hero">
+    <div class="floating-icons">
+      <div class="floating-icon"><i class="fas fa-thread"></i></div>
+      <div class="floating-icon"><i class="fas fa-tshirt"></i></div>
+      <div class="floating-icon"><i class="fas fa-scissors"></i></div>
+      <div class="floating-icon"><i class="fas fa-palette"></i></div>
+    </div>
+
+    <div class="hero-content">
+      <h1>Where Quality Comes First</h1>
+      <p>Our goal is complete satisfaction and flawless results in every project.</p>
+      <a href="services.html" class="btn">Our Services</a>
+
+      <div class="features">
+        <div class="feature">
+          <i class="fas fa-sync-alt"></i>
+          <span>Vector Services Availiable</span>
+        </div>
+        <div class="feature">
+          <i class="fas fa-tag"></i>
+          <span>Digitizing Services Availiable</span>
+        </div>
+        <div class="feature">
+          <i class="fas fa-award"></i>
+          <span>Digitizing & Vector Patches Services Availiable</span>
+        </div>
+        <div class="feature">
+          <i class="fas fa-truck"></i>
+          <span>Premium Quality Delivered!</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Subtle scroll parallax effect
+    window.addEventListener("scroll", function () {
+      const scrolled = window.pageYOffset;
+      const hero = document.querySelector(".hero");
+      hero.style.backgroundPositionY = -(scrolled * 0.2) + "px";
+    });
+  </script>
+
+      <!-- <br><br> -->
+
+      <section class="services" id="services">
+        <div class="services-header">
+          <h2>Our Services</h2>
+          <div class="underline"></div>
+          <p>We offer a comprehensive range of digitizing services tailored to meet your specific needs, all delivered
+            with precision and expertise.</p>
+        </div>
+
+        <div class="services-container">
+          <div class="service-card">
+            <img src="vector-icon.png" alt="Logo Digitizing" />
+            <h2>Vector</h2>
+            <p>We deliver quality digitized files with required number of stitches, least thread trims and colors
+              changes, compatibles with all popular embroidery machines</p>
+            <a href="services.html">Learn More →</a>
+          </div>
+
+          <div class="service-card">
+            <img src="digitizing-icon.png" alt="3D Puff Embroidery" />
+            <h2>Digitizing</h2>
+            <p>We create high-resolution vector art from low resolution photos or other images, which can be scaled up
+              or down infinitely without the loss of resolution.</p>
+            <a href="services.html">Learn More →</a>
+          </div>
+
+          <div class="service-card">
+            <img src="patches-icon.png" alt="Applique Digitizing" />
+            <h2>Patches</h2>
+            <p>Our team of embroidery ,with year of experience in award winning designs ,will assist you in creating a
+              beautiful patch that will be worn with pride.</p>
+            <a href="services.html">Learn More →</a>
+          </div>
+        </div>
+      </section>
+  </div>
+
+
+      <section class="banner">
+        <div class="left">
+          <div class="eyebrow">ABOUT</div>
+          <h1>Grow Your Business With <span style="white-space:nowrap">Aplex Punch</span></h1>
+          <p class="lead">
+            Aplex Punch delivers premium-quality design services backed by years of experience and attention to detail.
+            Our skilled team transforms your ideas, images, and logos into flawless artwork that stands out.
+            We take pride in maintaining the highest standards of precision, creativity, and reliability because
+            perfection
+            is what our clients expect, and what we deliver.
+          </p>
+          <a href="about.html" class="cta">DISCOVER MORE</a>
+        </div>
+        <div class="right">
+          <div class="img-frame">
+            <img src="About-image2.avif" alt="Team working at computer">
+          </div>
+        </div>
+      </section>
+
+
+      <section class="experience">
+        <div class="container">
+          <div class="section-title fade-in">
+            <h1>Our Experience</h1>
+            <div class="divider"></div>
+            <p>With years of industry experience and thousands of satisfied clients, we've established ourselves as
+              leaders in digitizing services.</p>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card fade-in">
+              <span class="stat-number counter" data-target="12">0</span>
+              <h3 class="stat-title">Years Experience</h3>
+              <p class="stat-description">More than a decade of excellence in the digitizing industry</p>
+            </div>
+
+            <div class="stat-card fade-in">
+              <span class="stat-number counter" data-target="35000">0</span>
+              <h3 class="stat-title">Projects Completed</h3>
+              <p class="stat-description">Successfully delivered thousands of digitizing projects worldwide</p>
+            </div>
+
+            <div class="stat-card fade-in">
+              <span class="stat-number counter" data-target=" 2500">0</span>
+              <h3 class="stat-title">Happy Clients</h3>
+              <p class="stat-description">Building lasting relationships with clients who trust us with their projects
+              </p>
+            </div>
+
+            <div class="stat-card fade-in">
+              <span class="stat-number counter" data-target="43">0</span>
+              <h3 class="stat-title">Countries Served</h3>
+              <p class="stat-description">Providing our expert digitizing services to clients across the globe</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script src="all.js/script4.js"></script>
+
+      <!-- ====== Pricing Section Start ====== -->
+      <section class="pricing-section">
+        <h1 class="section-title">Our Pricing</h1>
+        <p class="section-subtitle">Choose your desired service category below.</p>
+
+        <!-- ====== Tabs ====== -->
+        <div class="tabs">
+          <button class="tab active" data-target="digitizing">Digitizing</button>
+          <button class="tab" data-target="vector">Vector</button>
+          <button class="tab" data-target="patches">Patches</button>
+        </div>
+
+        <!-- ====== Pricing Containers ====== -->
+        <div class="pricing-content">
+
+          <!-- ====== Digitizing Section ====== -->
+          <div class="pricing-category active" id="digitizing">
+            <div class="pricing-container">
+
+              <div class="pricing-card">
+                <h3>Left Chest Cap</h3>
+                <h2>$10 to $15<span>/design</span></h2>
+                <p>Perfect for simple embroidery designs.</p>
+                <ul>
+                  <li>✔ Minor Editing Free</li>
+                  <li>✔ Machine / File Format Conversion Free</li>
+                  <li>✔ 24-hour delivery</li>
+                </ul>
+                <button class="btn">
+                  <a href="contact.html" style="text-decoration: none; color: inherit;">Order Now</a>
+                </button>
+              </div>
+
+              <div class="pricing-card popular">
+                <h3>Mid Size 5 to 7 Inches</h3>
+                <h2>$20 to $50<span>/design</span></h2>
+                <p>Ideal for medium complexity logos.</p>
+                <ul>
+                  <li>✔ Minor Editing Free</li>
+                  <li>✔ Machine / File Format Conversion Free</li>
+                  <li>✔ 24-hour delivery</li>
+                </ul>
+                <button class="btn">
+                  <a href="contact.html" style="text-decoration: none; color: inherit;">Order Now</a>
+                </button>
+              </div>
+
+              <div class="pricing-card">
+                <h3>Jacket Back</h3>
+                <h2> $35 to $75<span>/design</span></h2>
+                <p>For complex and detailed artworks.</p>
+                <ul>
+                  <li>✔ Minor Editing Free</li>
+                  <li>✔ Machine / File Format Conversion Free</li>
+                  <li>✔ 24-hour delivery</li>
+                </ul>
+                <button class="btn">
+                  <a href="contact.html" style="text-decoration: none; color: inherit;">Order Now</a>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- ====== Vector Section ====== -->
+          <div class="pricing-category" id="vector">
+            <div class="pricing-container">
+
+              <div class="pricing-card">
+                <h3>Simple Vector Art</h3>
+                <h2>$10<span>/design</span></h2>
+                <p>(Vectorize simple logos) </p>
+                <ul>
+                  <li>✔ Minor Editing Free</li>
+                  <li>✔ Machine / File Format Conversion Free</li>
+                  <li>✔ 24-hour delivery</li>
+                </ul>
+                <button class="btn">
+                  <a href="contact.html" style="text-decoration: none; color: inherit;">Order Now</a>
+                </button>
+              </div>
+
+              <div class="pricing-card popular">
+                <h3>Standard Vector Art</h3>
+                <h2>$15 to 20<span>/design</span></h2>
+                <p>(Multiple Colors & Normal Shading) </p>
+                <ul>
+                  <li>✔ Minor Editing Free</li>
+                  <li>✔ Machine / File Format Conversion Free</li>
+                  <li>✔ 24-hour delivery</li>
+                </ul>
+                <button class="btn">
+                  <a href="contact.html" style="text-decoration: none; color: inherit;">Order Now</a>
+                </button>
+              </div>
+
+              <div class="pricing-card">
+                <h3>Complex Vector Art</h3>
+                <h2>$25 to 100<span>/design</span></h2>
+                <p>(Depending on Complexity)</p>
+                <!-- <p>High detail, advanced gradient effects.realistic Art Work</p> -->
+                <ul>
+                  <li>✔ Minor Editing Free</li>
+                  <li>✔ Machine / File Format Conversion Free</li>
+                  <li>✔ 24-hour delivery</li>
+                </ul>
+                <button class="btn">
+                  <a href="contact.html" style="text-decoration: none; color: inherit;">Order Now</a>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- ====== Patches Section ====== -->
+          <div class="pricing-category" id="patches">
+            <div class="pricing-container">
+
+              <div class="pricing-card">
+                <h3>Basic</h3>
+                <h2>$150<span>/total</span></h2>
+                <p>For small quantity orders.</p>
+                <ul>
+                  <li>✔ 50 patches</li>
+                  <li>✔ Free Digitizing</li>
+                  <li>✔ Free shipping</li>
+                </ul>
+                <button class="btn">
+                  <a href="contact.html" style="text-decoration: none; color: inherit;">Order Now</a>
+                </button>
+              </div>
+
+              <div class="pricing-card popular">
+                <h3>Standard</h3>
+                <h2>$250<span>/total</span></h2>
+                <p>Perfect for mid-size patch orders.</p>
+                <ul>
+                  <li>✔ 100 patches</li>
+                  <li>✔ Free Digitizing</li>
+                  <li>✔ Free shipping</li>
+                </ul>
+                <button class="btn">
+                  <a href="contact.html" style="text-decoration: none; color: inherit;">Order Now</a>
+                </button>
+              </div>
+
+              <div class="pricing-card">
+                <h3>Premium</h3>
+                <h2>$380<span>/total</span></h2>
+                <p>For bulk and professional needs.</p>
+                <ul>
+                  <li>✔ 200 patches</li>
+                  <li>✔ Free Digitizing</li>
+                  <li>✔ Free digitizing</li>
+                </ul>
+                <button class="btn">
+                  <a href="contact.html" style="text-decoration: none; color: inherit;">Order Now</a>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- ====== Pricing Section End ====== -->
+
+      <script src="all.js/script3.js"></script>
+      <br><br>
+
+
+      <section class="choose-section">
+        <h1 class="choose-heading">Why Choose Us</h1>
+        <p class="choose-subheading">
+          Discover the advantages that make us the preferred choice for digitizing services.
+        </p>
+
+        <div class="choose-wrapper">
+          <div class="choose-image fade-in-item">
+            <img src="assets/pexels-fauxels-3184431.jpg" alt="Digitizing Machine">
+          </div>
+
+          <div class="choose-content fade-in-item">
+            <h2 class="choose-title">The Aplex Punch Difference</h2>
+            <p class="choose-text">
+              We combine technical expertise with artistic talent to deliver digitizing
+              that exceeds expectations every time.
+            </p>
+
+            <div class="choose-features">
+              <div class="choose-card">
+                <div class="choose-icon"><img src="assets/checkmark.png" height="50" width="50" alt=""></div>
+                <div>
+                  <h3>Quality Guarantee</h3>
+                  <p>
+                    We stand behind our work with a 100% satisfaction guarantee,
+                    ensuring every project meets the highest standards of quality and precision.
+                  </p>
+                </div>
+              </div>
+
+              <div class="choose-card">
+                <div class="choose-icon"><img src="assets/customer.png" height="50" width="50" alt=""></div>
+                <div>
+                  <h3>Expert Team</h3>
+                  <p>
+                    Our Digitizers & Vector Artist have years of specialized training and experience,
+                    ensuring your designs are handled by true professionals.
+                  </p>
+                </div>
+              </div>
+
+              <div class="choose-card">
+                <div class="choose-icon"><img src="assets/headphones.png" height="50" width="50" alt=""></div>
+                <div>
+                  <h3>24/7 Support</h3>
+                  <p>
+                    Our dedicated support team is available around the clock to assist
+                    with your questions and ensure smooth project completion.
+                  </p>
+                </div>
+              </div>
+
+              <div class="choose-card">
+                <div class="choose-icon"><img src="assets/dolar-icon.png" height="50" width="50" alt=""></div>
+                <div>
+                  <h3>Competitive Pricing</h3>
+                  <p>
+                    Premium digitizing services at affordable rates with transparent pricing
+                    and no hidden fees, plus volume discounts.
+                  </p>
+                </div>
+              </div>
+            </div>
+<button class="choose-btn">
+  <a href="portfolio.html" style="text-decoration: none; color: inherit;">Get Started Today</a>
+</button>
+            <!-- <button class="choose-btn">Get Started Today</button> -->
+          </div>
+        </div>
+      </section>
+
+      <script src="all.js/script7.js"></script>
+
+
+
+      <!-- <section class="our-work">
+        <h2 class="title">Our Leatest Work</h2>
+        <div class="underline"></div>
+        <p class="subtitle">
+          Discover some of our best projects that reflect creativity, quality, and precision.
+        </p>
+
+        <div class="projects">
+          <!-- 10 project cards -->
+          <!-- <div class="card">
+            <img src="Projects/BEAR.jpg" alt="Project 1" />
+            <div class="card-info">
+              <h3></h3>
+              <p>Vector Art</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Projects/CAR.jpg" alt="Project 2" />
+            <div class="card-info">
+              <h3></h3>
+              <p>Vector Art</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Projects/LINE ART.jpg" alt="Project 3" />
+            <div class="card-info">
+              <h3></h3>
+              <p>Vector Art</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Projects/MEN.jpg" alt="Project 4" />
+            <div class="card-info">
+              <h3></h3>
+              <p>Vector Art</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Projects/TERROR LOGO.jpg" alt="Project 5" />
+            <div class="card-info">
+              <h3></h3>
+              <p>Vector Art</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Projects/WARRANT LOGO.jpg" alt="Project 6" />
+            <div class="card-info">
+              <h3></h3>
+              <p>Vector Art</p>
+            </div> -->
+            <!-- </div>
+      <div class="card">
+        <img src="https://picsum.photos/seed/7/800/800" alt="Project 7" />
+        <div class="card-info">
+          <h3>Project 7</h3>
+          <p>Vector Art</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/seed/8/800/800" alt="Project 8" />
+        <div class="card-info">
+          <h3>Project 8</h3>
+          <p>Digitized Pattern</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/seed/9/800/800" alt="Project 9" />
+        <div class="card-info">
+          <h3>Project 9</h3>
+          <p>Patch Digitizing</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/seed/10/800/800" alt="Project 10" />
+        <div class="card-info">
+          <h3>Project 10</h3>
+          <p>Custom Design</p>
+        </div>
+      </div>
+    </div> -->
+      <!-- </section> -->
+
+      <!-- Lightbox -->
+      <!-- <div class="lightbox" id="lightbox">
+        <img src="" alt="Preview" />
+        <span class="close">&times;</span>
+      </div>
+
+      <script src="all.js/script10.js"></script> --> -->
+
+      <!-- reviews-section -->
+
+    <div class="reviews-section">
+    <div class="reviewsWrapper">
+        <div class="reviewsHeader">
+            <h2>What Our Clients Say</h2>
+            <p>Don't just take our word for it. Read testimonials from our satisfied customers.</p>
+        </div>
+
+        <div class="reviewsGrid">
+            <!-- Review 1 -->
+            <div class="singleReview">
+                <div class="quoteSymbol">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="reviewContent">
+                    “Absolutely amazing vector quality — crisp, detailed, and perfectly done. The illustrations scaled flawlessly across devices and retained pixel-perfect sharpness even at very large print sizes. Their attention to anchor points and clean paths saved us hours in production.”
+— Jessica Park, Creative Director, Loom Studios
+                </p>
+                <div class="reviewAuthor">
+                    <div class="authorImage">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson">
+                    </div>
+                    <div class="authorDetails">
+                        <h4>Sarah Johnson</h4>
+                        <p>Marketing Director, TechCorp</p>
+                        <div class="starRating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="singleReview">
+                <div class="quoteSymbol">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="reviewContent">
+                    “Exceptional precision and clarity in every digitized file.”
+No jump stitches, no distortion — just clean, organized patterns that run perfectly on multiple machines. The results on caps, polos, and jackets were beyond expectations.
+— Ravi Mehta, Production Manager, ThreadCraft Embroidery
+                </p>
+                <div class="reviewAuthor">
+                    <div class="authorImage">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen">
+                    </div>
+                    <div class="authorDetails">
+                        <h4>Michael Chen</h4>
+                        <p>CEO, Innovate Solutions</p>
+                        <div class="starRating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="singleReview">
+                <div class="quoteSymbol">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="reviewContent">
+                    “Best patch quality ever! Looks premium, durable, and perfectly matches my design.”
+The stitching is dense, clean, and beautifully aligned. Colors pop with rich vibrancy, and the texture feels high-grade — like something straight off a luxury brand jacket.
+— Nadia Khan, Streetwear Designer, Urban Edge Co.
+                </p>
+                <div class="reviewAuthor">
+                    <div class="authorImage">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emily Rodriguez">
+                    </div>
+                    <div class="authorDetails">
+                        <h4>Emily Rodriguez</h4>
+                        <p>Operations Manager, Global Retail</p>
+                        <div class="starRating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+      <b>
+        <hr>
+        <hr>
+        <hr>
+      </b>
+      <section class="software-section">
+        <div class="container">
+          <h2 class="software-title">Software We Use</h2>
+          <div class="underline"></div>
+
+          <div class="logo-slider">
+            <div class="slide-track">
+              <img src="assets/truegizer.png" height="90" alt="Compucon" />
+              <img src="assets/coral.png" height="90" alt="CorelDRAW" />
+              <img src="assets/wilcom.png" height="90" alt="Wilcom" />
+              <img src="assets/pulas.png" height="90" alt="Pulse" />
+              <img src="assets/design-shop.png" height="90" alt="DesignShop" />
+              <img src="assets/illustrator.png" height="90" alt="Illustrator" />
+              <!-- duplicate for infinite scroll effect -->
+              <img src="assets/truegizer.png" height="90" width="" alt="Compucon" />
+              <img src="assets/coral.png" height="90" alt="CorelDRAW" />
+              <img src="assets/wilcom.png" height="90" alt="Wilcom" />
+              <img src="assets/pulas.png" height="90" alt="Pulse" />
+              <img src="assets/design-shop.png" height="90" alt="DesignShop" />
+              <img src="assets/illustrator.png" height="90" alt="Illustrator" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    
+<!-- footer-section -->
+
+    <footer class="footer-section">
+      <div class="footer-container">
+
+        <!-- ===== Column 1: About ===== -->
+        <div class="footer-column about">
+          <h2 class="footer-logo"><img src="Aplex-Punch-logo.png" height="52" width="230" alt=""><span></span></h2>
+          <p class="footer-desc">
+            APLEX PUNCH is a leading software house specializing in embroidery digitizing,
+            vector art, and patch designing services. We combine creativity with precision
+            to bring your artwork to life.
+          </p>
+
+          <!-- <div class="social-icons">
+        
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div> -->
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+
+        </div>
+
+        <!-- ===== Column 2: Quick Links ===== -->
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- ===== Column 3: Services ===== -->
+        <div class="footer-column">
+          <h3>Our Services</h3>
+          <ul>
+            <li><a href="#">Embroidery Digitizing</a></li>
+            <li><a href="#">Vector Art Conversion</a></li>
+            <li><a href="#">Patch Designing</a></li>
+            <li><a href="#">Logo Vectorization</a></li>
+            <li><a href="#">Custom Artwork</a></li>
+          </ul>
+        </div>
+
+        <!-- ===== Column 4: Newsletter ===== -->
+        <div class="footer-column newsletter">
+          <h3>Subscribe to Newsletter</h3>
+          <p>Stay updated with our latest offers and design trends.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- ===== Bottom Bar ===== -->
+      <div class="footer-bottom">
+        <p>© 2025 APEX PUNCH. All rights reserved.</p>
+        <button id="scrollTopBtn" title="Go to top">↑</button>
+      </div>
+    </footer>
+    <!-- ===== Footer End ===== -->
+
+    <!-- Font Awesome (for icons) -->
+    <script src="https://kit.fontawesome.com/a2f0e6a36b.js" crossorigin="anonymous"></script>
+    <script src="all.js/"></script>
+
+    <script src="script.js" defer></script>
+
+  </body>
+
+</html>
